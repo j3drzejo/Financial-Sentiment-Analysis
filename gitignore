@@ -1,0 +1,34 @@
+# Środowisko wirtualne
+.venv/
+env/
+venv/
+
+# Dane — nie commitujemy (Kaggle ToS)
+data.csv
+*.csv
+
+# Checkpointy i wagi modeli
+finbert_output/
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+
+# Logi
+*.log
+wandb/
+runs/
